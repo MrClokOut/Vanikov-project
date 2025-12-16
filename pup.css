@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.hero {
+    background-image: url('img/kartinka_fon.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    margin-bottom: 60px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.block-sos {
+    float: right;
+    background-color: #FFF3E3;
+    width: 643px;
+    height: 443px;
+    margin-right: 58px;
+    border-radius: 10px;
+    
+}
+
+.hero_picture{
+    margin-top: 62px;
+    margin-left: 39px;
+}
+
+.hero-content h1 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.hero-content h2 {
+    margin-bottom: 20px;
+    font-weight: 400px;
+    line-height: 65px;
+}
+
+.hero-content h3{
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.button_hero{
+    width: 222px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2883C;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-buy {
+    font-size: 16px;
+    border-color: #B2883C;
+    background-color: #B2883C;
+    border: none;
+    width: 222px;
+    height: 74px;
+    margin-left: 40px;
+    margin-bottom: 37px;
+    text-align: center;
+    color: #f9f9f9;
+
+}
+
+.btn-buy:hover {
+    background-color: #644408;
+}
+
+.block-sos h1{
+    font-size: 16px;
+}
+
+.block-sos h2{
+    font-size: 52px;
+    color: #B2883C;
+}
+
+.block-sos h3{
+    font-size: 18px;
+    
+}
+
+.pop {
+font-weight:bold ;
+font-size: 32px;
+}
+
+.are{
+    padding-top: 62px;
+    padding-left: 41px;
+    font-size: 16px;
+    display: flex;
+    justify-self: start;
+}
+
+.mem {
+font-size: 20px;
+}
+
+.pip {
+float: left;
+text-align: left;
+margin-left: 50px;
+font-size: 18px;
+}
+
+
+
+.browse-section {
+    text-align: center;
+    padding: 0 20px 60px;
+}
+
+.browse-section h2 {
+    margin-bottom: 15px;
+    color: #2d3436;
+}
+
+.browse-section p {
+    color: #636e72;
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories {
+    width: 1183px;
+    display: flex;
+    justify-content:space-between;
+    justify-self: center;
+
+}
+
+.category-img {
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.category-img.dining {
+    
+    width: 381px;
+    height: 480px;
+
+}
+
+.category-img.living {
+    width: 381px;
+    height: 480px;
+}
+
+.category-img.bedroom {
+    width: 381px;
+
+    height: 480px;
+}
+
+.category h3 {
+    color: #2d3436;
+    display: flex;
+    justify-self: center;
+}
+
+.products-section {
+    padding: 0 20px 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.products-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #2d3436;
+}
+
+.products-grid {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+
+.poppa {
+
+display: flex;
+width: 1236px;
+height: 1084px;
+flex-wrap: wrap;
+gap: 30px;
+
+}
+
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #E58A7B;
+    color: white;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-badge.sale {
+    background-color: #11B6A3;
+}
+
+.product-img {
+    width:  285px;
+    height: 301px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url(img/Syltherine.png);
+}
+
+
+
+.img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url(img/Leviosa.png);
+}
+
+
+
+.img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Lolito.png');
+}
+
+.img4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Respira.png');
+}
+
+.img5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Grifo.png');
+}
+
+.img6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Muggo.png');
+}
+
+.img7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Pingky.png');
+}
+
+.img8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), 
+                url('img/Potty.png');
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #2d3436;
+}
+
+.product-info p {
+    color: #636e72;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.current-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.original-price {
+
+    color: #b2bec3;
+    text-decoration: line-through;
+}
+
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    padding: 20px;
+ 
+}
+
+
+.add-to-cart {
+    background-color: #B2883C;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.add-to-cart:hover {
+    background-color: #B2883C;
+    
+}
+
+.product-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    border: none;
+    color: #2d3436;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    font-size: 16px;
+}
+
+.action-btn:hover {
+    background-color: #f1f2f6;
+}
+
+.show-more {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid #B2883C;
+    color:  #B2883C;
+    padding: 12px 40px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 245px;
+    height: 48px;
+}
+
+.show-more:hover {
+    background-color:  #B2883C;
+    color: white;
+}
+
+
+
+body{
+    width: 1440px;
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+header{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 34px;
+    width: bold;
+}
+
+.part1_header{
+    width: 185px;
+    height: 41px;
+    margin-left: 54px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.part2_header_buttons{
+    width: 430px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+
+.part3_header_icons{
+    width: 247px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.rooms {
+    background-color: #FCF8F3;
+    display: flex;
+    width: 1440px;
+    height: 670px;
+
+}
+
+.text {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 422px;
+}
+
+.big_text {
+    margin-top: 223px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    width: 422px;
+    height: 96px;
+    line-height: 120%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.smol_text {
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.more {
+    background-color: #B88E2F;
+    color: white;
+    width: 176px;
+    height: 48px;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.more:hover {
+    background-color: #644408;
+}
+
+.images {
+    padding-top: 44px;
+    display: flex;
+}
+
+.grey_room {
+    width: 404px;
+    height: 582px;
+    padding-left: 42px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.kitchen_room {
+    width: 372px;
+    height: 486px;
+    padding-left: 24px;
+    z-index: 0;
+}
+
+.dots {
+    width: 120px;
+    height: 27px;
+    margin-top: 40px;
+    margin-left: 24px
+}
+
+.next {
+    width: 48px;
+    height: 48px;
+    margin-top: 311px;
+}
+
+.furnitura {
+    background-color: white;
+    width: 1440px;
+    height: 897px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.share_text {
+    font-size: 20px;
+}
+
+.hashtag {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -5px
+}
+
+footer{
+    width: 1440px;
+    height: 505px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color:gray; 
+
+}
+
+.footer_center{
+    margin-left: 100px; 
+    margin-top: 48px;
+    margin-bottom: 96px;
+    width: 1133px;
+    height: 312px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.part1_footer p{
+    margin-top: 48px;
+    font-weight:medium;
+    color: #9F9F9F;
+}
+
+footer h1{
+    font-weight: Bold;
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+
+footer .L{
+    margin-top: 48px;
+    font-weight:normal;
+    color: #9F9F9F;
+    margin-bottom: 28px;
+}
+
+footer h3{
+    margin-bottom: 46px;
+}
+
+.inputer_footer{
+    width: 200px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.button_footer{
+    width: 75px;
+    height: 21px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    padding-bottom: 2px;
+    background: none;
+    font-size: 14px;
+}
+
+.part5_footer{
+    width: 1240px;
+    height: 59px;
+    display: flex;
+    align-items: end;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    justify-self: center;
+}
